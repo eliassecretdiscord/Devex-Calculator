@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('./Roboto.ttf');
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+    color: white;
+}
+
+body{
+    background-image: url("./Background.webp");
+    background-repeat: no-repeat;
+}
+
+header{
+    text-align: center;
+    margin-top: 3%;
+    font-size: 250%;
+}
+
+main{
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+main h2{
+    margin-top: 3%;
+    text-align: center;
+    margin-left: -30%;
+    font-size: 250%;
+}
+
+main p{
+    margin-top: 3%;
+    text-align: center;
+    margin-left: -30%;
+    font-size: 200%;
+}
+
+input{
+    width: 70%;
+    padding: 3%;
+    background-color: rgba(255,255,255,0.25);
+    border: none;
+    font-size: 200%;
+    border-radius: 3rem;
+    outline: none;
+}
